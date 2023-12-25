@@ -31,7 +31,7 @@ This project is a simple user registration and authentication system using PHP a
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/codwithkim1/user-registration-authentication.git
+    git@github.com:codewithkim1/User-Registration-and-Authentication-System.git
     ```
 
 2. Import the SQL file (`db.sql`) into your MySQL database to create the necessary database and table.
