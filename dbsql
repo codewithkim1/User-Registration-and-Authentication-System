@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    verification_code VARCHAR(6),
+    is_verified INT DEFAULT 0,
+    full_name VARCHAR(255),
+    phone_number VARCHAR(15)
+);
